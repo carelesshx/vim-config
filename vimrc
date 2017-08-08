@@ -10,3 +10,5 @@ set showmode				" display current mode
 
 set ignorecase				" ignore case
 set smartcase				" match case if expression contains capital letter
+execute pathogen#infect()
+call pathogen#helptags()
