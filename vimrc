@@ -12,7 +12,10 @@ set ignorecase				" ignore case
 set smartcase				" match case if expression contains capital letter
 
 set wildmenu
-set hlsearch
+set wildmode=list:longest         	" Complete files like a shell.
+set hlsearch				" highlight search terms
+set incsearch                     	" Highlight matches as you type.
+set modeline				" allow use of modelines
 
 execute pathogen#infect()
 call pathogen#helptags()
