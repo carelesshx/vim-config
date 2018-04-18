@@ -1,3 +1,5 @@
+" shared vim config, available at github
+
 syntax enable				" turn on syntax highlighting
 filetype plugin indent on		" turn on filetype detection
 colorscheme vividchalk
